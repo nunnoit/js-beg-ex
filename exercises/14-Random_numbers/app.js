@@ -1,9 +1,9 @@
-/*Exercise closely resembles 11 - consider introducing another concept here? */
-
 function getRandomInt()
 {
-	var randomNumber = Math.random();
-	return randomNumber;
+	let min = 1;
+	let max = 10;
+	let result = Math.floor(Math.random() * (max - min + 1)) + min;
+	return result
 }
 
 
